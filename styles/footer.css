@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  min-block-size: 65px;
+  inline-size: 100%;
+  background-color: seagreen;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.footer__company-info {
+}

@@ -1,0 +1,11 @@
+.middle-content {
+
+}
+
+.middle-content__columns {
+  display: grid;
+  min-inline-size: 100%;
+  min-block-size: 696px;
+  grid-template-columns: 1fr 1fr;
+  background-color: blueviolet;
+}

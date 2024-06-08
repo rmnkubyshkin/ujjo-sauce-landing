@@ -1,0 +1,6 @@
+.bottom-content {
+  display: flex;
+  min-block-size: 756px;
+  inline-size: 100%;
+  background-color: rebeccapurple;
+}
