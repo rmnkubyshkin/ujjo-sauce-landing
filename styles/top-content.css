@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: blue;
-  column-gap: 40px;
+  /* column-gap: 40px; */
 }
 
 .top-conent__columns-left {

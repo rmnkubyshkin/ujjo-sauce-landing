@@ -11,13 +11,18 @@
   padding-block-start: 90px;
   padding-block-end: 55px;
 }
+.conent__columns-tagline-text-top {
+  padding-block-start: 25px;
+  padding-inline: 50px;
+}
+.conent__columns-tagline-text {
+  font-family: Roboto;
 
-.content__tagline-text {
+
   font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 58px;
   font-weight: 400;
-  font-style: normal;
-  font-size: 65px;
-  line-height: 72.58px;
+  line-height: 64.51px;
   letter-spacing: 0.5px;
   text-align: center;
   color: var(--secondary-color);  
@@ -40,9 +45,14 @@
 .conent__columns-ticker {
 }
 
+.conent__columns-logo-item {
+  padding: 20px;
+}
+
 .content__ticker-image {
 
 }
+
 
 .content__ticker-text {
   font-family: Roboto;
@@ -57,5 +67,8 @@
 
 .content__image {
   background-color: hotpink;
-  padding: 21px;
+}
+
+.conent__columns-image-item {
+  padding-inline-start: 22px;
 }
