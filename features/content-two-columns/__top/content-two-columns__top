@@ -1,0 +1,36 @@
+@import url("./_left-columns/content-two-columns_left-columns.css");
+@import url("./_right-columns/content-two-columns_right-columns.css");
+
+.content-two-columns__top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: blue;
+  column-gap: 40px;
+}
+
+.content-two-columns__top_left-columns-logo {
+  display: block;
+}
+.conent__columns-ticker {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-two-columns__top_right-columns {
+
+}
+.content-two-columns__top_right-columns-list {
+
+}
+
+.content-two-columns__top_left-columns-list {
+  display: grid;
+  grid-template-rows: 1.08fr 3fr;
+
+}
+
+.top-conent__columns-left-list {
+  display: grid;
+  grid-template-rows: 5fr 1fr 5fr;
+}

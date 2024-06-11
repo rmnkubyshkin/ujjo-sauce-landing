@@ -1,0 +1,20 @@
+.content__top {
+  inline-size: 100%;
+  min-block-size: 989px;
+}
+
+.conent__columns-tagline {
+
+}
+
+/* .conent__columns-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.conent__columns-image-item {
+  background-position: center;
+  display: block;
+  margin: auto;
+} */

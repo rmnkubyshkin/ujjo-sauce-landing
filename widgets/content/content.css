@@ -1,3 +1,5 @@
+@import url(../../features/content-two-columns/content-two-columns.css);
+
 .content__tagline {
   display: flex;
   align-content: center;
@@ -38,6 +40,11 @@
 }
 
 .conent__columns-ticker {
+  
+}
+
+.conent__columns-image {
+
 }
 
 .content__ticker-image {

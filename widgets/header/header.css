@@ -1,3 +1,7 @@
+@import "../content/__bottom/content__bottom.css";
+@import "../content/__top/content__top.css";
+@import "../content/__middle/content__middle.css";
+
 .header {
   display: flex;
   flex-direction: row;
@@ -38,9 +42,11 @@ padding-inline-start: 160px;
   padding-inline-end: 160px;
 }
 
+.header__button-item {
 
+}
 
-.header__button-wrapper {
+.header__button {
   min-width: 157px;
   min-height: 52px;
   border: 1px solid var(--secondary-color);
@@ -65,6 +71,15 @@ padding-inline-start: 160px;
   color: inherit;
   background-color: transparent;
   cursor: pointer;
+  
+  min-width: 157px;
+  min-height: 52px;
+  border: 1px solid var(--secondary-color);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .header__logo {
