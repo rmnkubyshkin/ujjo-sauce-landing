@@ -1,15 +1,14 @@
 .header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  background-color: gold;
+  background-color: transparent;
   width: 100%;
-  column-gap: 20px;
+  display: grid;
   align-content: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  min-height: 112px;
-  /* padding: 28px 22px; */
+  justify-content: center;
+  padding-block-start: 30px;
+  padding-block-end: 30px;
+  padding-inline-start: 22px;
+  grid-template-columns: repeat(7, minmax(min-content, 1fr));
+
 }
 
 .header__menu-list {
@@ -30,60 +29,92 @@
   padding-inline: 65px;
 }
 
-.header__menu-list-item-right-shifted {
-padding-inline-start: 160px;
-}
-
-.header__menu-list-item-left-shifted {
-  padding-inline-end: 160px;
-}
-
-
-
-.header__button-wrapper {
-  min-width: 157px;
-  min-height: 52px;
-  border: 1px solid var(--secondary-color);
+.header__button-item {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-transform: uppercase;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-content: center;
+  text-align: center;
+  background: transparent;
+  padding-block: 15px;
+  padding-inline: 46px;
+  border: none;
+  background-color: transparent;
+}
+
+.header__button-item-story {
+  margin-inline-start: 50px;
+}
+
+.header__button-item-shop {
+  margin-inline-start: 45px;
+}
+
+.header__button-item-wholesale {
+  margin-inline-start: 15px;
+}
+
+.header__button-item-contact {
+  margin-inline-start: 30px;
+}
+
+.header__button {
+  background-color: #444;
+  padding: 20px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+
+.header__button-item-clone {
+  margin-inline-start: 30px;
 }
 
 .header__button-accent {
-
+  display: grid;
 }
+
 .header__button-transparent-wrapper {
 
 }
 
-.header__button {
+.button {
   padding: 0;
   border: none;
   font: inherit;
   color: inherit;
   background-color: transparent;
   cursor: pointer;
+  text-wrap: nowrap;
+  max-block-size: 52px;
+}
+
+.button_accent {
+  background-color: var(--accent-color);
 }
 
 .header__logo {
   display: flex;
   justify-content: center;
-  align-content: center;
-  min-height: inherit;
-  min-width: auto;
-  background-color: green;
-}
-
-.header__logo-wrapper {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  align-items: center;
+  background-color: transparent;
+  padding: 0px;
+  margin-inline-start: 60px;
 }
 .header__logo-image {
-  background-position: center;
   display: block;
-  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  padding-inline-end: 35px;
+  margin-block-start: 0px;
 }
 
